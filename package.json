@@ -1,0 +1,17 @@
+{
+  "name": "js-allrequests",
+  "version": "1.0.0",
+  "description": "Executes all API calls available in the Currencycloud JS SDK",
+  "author": "Ed Addario <ed.addario@currencycloud.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EAddario/js-allrequests.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "currency-cloud": "^3.1.2"
+  }
+}
