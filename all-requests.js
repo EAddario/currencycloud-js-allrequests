@@ -3,8 +3,8 @@
  */
 'use strict';
 
-let currencyCloud = require('currency-cloud');
-let api = require('./lib/api')
+const currencyCloud = require('currency-cloud');
+const api = require('./lib/api')
 
 const credentials = {
   loginId: process.argv[2],
