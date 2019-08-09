@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "currency-cloud": "^3.1.2",
-    "ansi-colors": "^4.1.1"
+    "ansi-colors": "^4.1.1",
+    "uuid": "^3.3.2"
   }
 }

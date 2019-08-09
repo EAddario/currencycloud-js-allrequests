@@ -28,12 +28,30 @@ api.login(credentials)
   .then(api.createBeneficiary)
   .then(api.updateBeneficiary)
   .then(api.deleteBeneficiary)
+  .then(api.findContacts)
+  .then(api.getContact)
+  .then(api.currentContact)
+  .then(api.createContact)
+  .then(api.updateContact)
+  .then(api.findConversions)
+  .then(api.getConversion)
+  .then(api.createConversion)
+  .then(api.quoteDateChangeConversion)
+  .then(api.dateChangeConversion)
+  .then(api.splitPreviewConversion)
+  .then(api.splitConversion)
+  .then(api.splitHistoryConversion)
+  .then(api.quoteCancelParentConversion)
+  .then(api.quoteCancelChildConversion)
+  .then(api.cancelParentConversion)
+  .then(api.cancelChildConversion)
+  .then(api.profitAndLossConversion)
   .then(api.logout)
   .catch((err) => {
     if (err instanceof currencyCloud.APIerror) {
       console.log(ac.bgRedBright.yellowBright(err.toYAML()) + '\n');
     }
     else {
-      console.log(ac.bgRedBright.yellowBright(err) + '\n');
+      console.log(ac.bgBlueBright.yellowBright(err) + '\n');
     }
   });
