@@ -3,7 +3,7 @@
  */
 'use strict';
 
-const currencyCloud = require('currency-cloud');
+const currencyCloud = require('@addario-org/currencycloud-js-client');
 const api = require('./lib/api');
 const utils = require('./lib/utils');
 
