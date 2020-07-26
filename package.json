@@ -12,7 +12,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "currency-cloud": "file:../js-master/currency-cloud-3.4.0-ea.tgz",
+    "@addario-org/currencycloud-js-client": "^3.4.0-ea",
     "ansi-colors": "^4.1.1",
     "uuid": "^8.2.0"
   }
